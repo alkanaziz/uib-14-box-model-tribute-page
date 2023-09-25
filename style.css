@@ -34,7 +34,7 @@ section p {
 .list {
     list-style-type: none;
     width: 25rem;
-    margin: auto;
+    margin: 20px auto;
     text-align: left;
     /* border: 1px solid red; */
 }
@@ -50,17 +50,16 @@ ul li a:hover {
 .bottemText {
     width: 60%;
     margin: auto;
+    padding: 20px;
     background-color: rgb(177, 176, 176);
     border-radius: 10px;
-    text-align: left;
-}
-blockquote {
-    padding: 10px 30px;
 }
 
 footer {
-    background-color: rgb(253, 253, 9);
-    padding: 0.5rem;
+    background-color: yellow;
+    border-radius: 10px;
+    max-width: 90%;
     margin: 1rem auto;
+    padding: 1rem; /* Default 1rem = 16px  */
     text-align: center;
 }
